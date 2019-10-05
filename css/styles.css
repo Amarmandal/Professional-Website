@@ -41,6 +41,14 @@ h3 {
     font-family: "Montserrat", sans-serif;
 }
 
+hr {
+  border-style: dotted none none;
+  border-color: gray;
+  height: 3px;
+  width: 3%;
+  border-width: 5px;
+}
+
 .web {
     text-decoration: underline;
 }
