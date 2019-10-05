@@ -1,4 +1,5 @@
 body {
+    color: #40514E;
     margin: 0px;
     text-align: center;
     font-family: "Merriweather", serif;
@@ -41,6 +42,7 @@ hr {
     height: 3px;
     width: 50px;
     border-width: 5px;
+    margin: 100px auto;
 }
 
 .web {
@@ -49,6 +51,7 @@ hr {
 
 .bottom-cloud {
     position: absolute;
+    left: 250px;
 }
 
 .profile {
@@ -65,7 +68,7 @@ hr {
 .top-cloud {
     position: absolute;
     top: 50px;
-    right: 400px;
+    right: 250px;
 }
 
 .skill-row {
@@ -75,7 +78,12 @@ hr {
 }
 
 a {
+    font-family: "Montserrat", sans-serif;
     color: #11999e;
+}
+
+a:hover {
+    color: #EAF6F6;
 }
 
 div.skill-row > p {
@@ -101,8 +109,9 @@ div.skill-row > p {
 }
 
 .footer-copyright {
+    font-size: 0.85rem;
     color: #eaf6f6;
-    margin-bottom: 0;
+    padding: 20px 0;
 }
 
 .footer-link {
